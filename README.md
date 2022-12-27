@@ -1,1 +1,1 @@
-# SriZan17.github.io-main
+# SriZan17.github.io
