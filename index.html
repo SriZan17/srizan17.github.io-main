@@ -2,62 +2,46 @@
 <html>
 
 <head>
-    <!--
-    If you are serving your web app in a path other than the root, change the
-    href value below to reflect the base path you are serving from.
-
-    The path provided below has to start and end with a slash "/" in order for
-    it to work correctly.
-
-    For more details:
-    * https://developer.mozilla.org/en-US/docs/Web/HTML/Element/base
-
-    This is a placeholder for base href that will be replaced by the value of
-    the `--base-href` argument provided to `flutter build`.
-  -->
-    <!-- <base href="/teen_patti_probability_calculator/" /> -->
-    <meta charset="UTF-8" />
-    <meta content="IE=Edge" http-equiv="X-UA-Compatible" />
-    <meta name="description" content="A new Flutter project." />
-
-    <!-- iOS meta tags & icons -->
-    <meta name="apple-mobile-web-app-capable" content="yes" />
-    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
-    <meta name="apple-mobile-web-app-title" content="teen_patti_probability_calculator" />
-    <link rel="apple-touch-icon" href="icons/Icon-192.png" />
-
-    <!-- Favicon -->
-    <link rel="icon" type="image/png" href="favicon.png" />
-
-    <title>Teen Patti Probability Calculator</title>
-    <link rel="manifest" href="manifest.json" />
-
-    <script>
-        // The value below is injected by flutter build, do not touch.
-        var serviceWorkerVersion = '2109900271';
-    </script>
-    <!-- This script adds the flutter initialization JS code -->
-    <script src="flutter.js" defer></script>
+    <title>My Portfolio</title>
 </head>
 
 <body>
-    <script>
-        window.addEventListener("load", function(ev) {
-            // Download main.dart.js
-            _flutter.loader
-                .loadEntrypoint({
-                    serviceWorker: {
-                        serviceWorkerVersion: serviceWorkerVersion,
-                    },
-                })
-                .then(function(engineInitializer) {
-                    return engineInitializer.initializeEngine();
-                })
-                .then(function(appRunner) {
-                    return appRunner.runApp();
-                });
-        });
-    </script>
-</body>
-
+    <h1>My Portfolio</h1>
+    <h2>About Me</h2>
+    <p>
+        Hi! My name is Srijan Basnet and I am a CS student. I have experience with a variety of technologies including Python, Flutter, Dart, C, C++ and Assembly.
+    </p>
+    <h2>My Work</h2>
+    <!-- Make the h3 element clickable and takes to a specified link -->
+    <h3>
+        <a href="https://play.google.com/store/apps/details?id=com.sribasnet.gallerymemefinder">Gallery Meme Finder</a
+      >
+    </h3>
+    <p>
+      The app provides users with the ability to search for memes from the
+      gallery of their phone. The app was built using the Flutter framework.
+    </p>
+    <h3>Teen Patti Probability Calculator</h3>
+    <p>
+      Teen Patti Probability Calculator provides the probablity of winning in
+      Teen Patti taking the user's cards as input. Number of players and
+      discarded cards can also be provided for higher accuracy.
+      <a href="teen_patti_probability_calculator/index.html"
+        >It can also be used as a web app.</a
+      >
+    </p>
+    <h3>STONKS</h3>
+    <p>
+      STONKS is a collection of scripts that update and maintain the data in an
+      excel file containing information relating to share prices and various
+      fundamental as well techical indicators. The scripts are written in
+      Python.
+    </p>
+    <h2>Contact Me</h2>
+    <p>
+      If you would like to contact me, please email me at sribasnet07@gmail.com.
+      I would be happy to discuss potential opportunities or answer any
+      questions you may have.
+    </p>
+  </body>
 </html>
